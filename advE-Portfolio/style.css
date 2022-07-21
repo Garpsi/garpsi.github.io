@@ -608,6 +608,10 @@ footer {
     margin: 40px 0;
 }
 
+.footer__social--list > a {
+    cursor: pointer;
+}
+
 .footer__social--link,
 .footer__copyright {
     color: white;
