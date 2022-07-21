@@ -289,6 +289,7 @@ nav {
     height: 50px;
     width: 50px;
     filter: invert(1);
+    border-radius: 999px;
 }
 
 .nav__link--list {
@@ -508,7 +509,8 @@ PROJECTS
 
 .project__img {
     width: 100%;  
-    transition: all 600ms ease; 
+    transition: all 600ms ease;
+    transform: scale(1.02);
 }
 
 .project__wrapper {
@@ -525,7 +527,7 @@ PROJECTS
 }
 
 .project__wrapper:hover .project__img {
-    transform: scale(1.07);
+    transform: scale(1.1);
     filter: blur(5px);
 }
 
@@ -598,6 +600,8 @@ footer {
 
 .footer__logo--img {
     width: 70px;
+    height: 70px;
+    border-radius: 999px;
 }
 
 .footer__social--list {
