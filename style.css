@@ -362,6 +362,8 @@ FOOTER
     margin-top: 12px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal__language {
